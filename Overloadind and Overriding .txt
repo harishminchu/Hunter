@@ -1,0 +1,68 @@
+overloading : Method Overloading means to have two or more methods with same name in the same class with different arguments. The benefit of method overloading is that it allows you to implement methods that support the same behaviour but differ by argument number or type.
+
+Example: 
+
+class Add{
+
+	public int add(int a , int b){
+	
+		return a+b;
+	}
+
+	public int add(int a, int b, int c){
+	
+		return a+b+c;
+	}
+
+}
+
+public exxample{
+	 
+	 
+	 public static void main(String args[]){
+		Add add = new Add();
+		
+		int firstvalue=	add.add(1,2);
+		System.out.println("The Behaviour having 2 parameter will be executed "+firstvalue);// output is 3
+		
+		int secondvalue =	add.add(1,2,3);
+		System.out.println("The Behaviour having 3 parameter will be executed "+secondvalue);// output is 5 
+	 
+	 
+	 }
+
+}
+
+
+
+
+overriding:
+Method overriding occurs when sub class declares a method that has the same type arguments as a method declared by one of its parentClass. The key benefit of overriding is the ability to define behavior that’s specific to a particular subclass type.
+
+class Animal{
+
+   public void move(){
+      System.out.println("Animals can move");
+   }
+}
+
+class Dog extends Animal{
+
+   public void move(){
+      System.out.println("Dogs can walk and run");
+   }
+}
+
+public class TestDog{
+
+   public static void main(String args[]){
+      Animal a = new Dog(); // Animal reference and object
+     
+
+      a.move();// 
+
+     
+   }
+}
+
+output : i dont know what is  the output ? // lets talk about it 
