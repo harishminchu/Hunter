@@ -29,7 +29,7 @@ public class pyramid {
 		}
 		for (int i = num; i >= 0; i--) {
 
-			for (int k = 1; k <= i; k++) {
+			for (int k = 1; k <i; k++) {
 				System.out.print(i);
 			}
 			System.out.println();
