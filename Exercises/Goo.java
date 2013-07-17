@@ -10,7 +10,7 @@ public class Goo {
 	
 	
 	public static void main(String[] args) {
-		// 1st program
+		// Employee Salary
 
 		int overtime = 0;
 		int j = 1;
@@ -25,7 +25,7 @@ public class Goo {
 		System.out.println("Overtime of the employee is Rs. " + overtime);
 		
 		
-	// 2nd program	
+	// Factorial Proram	
 	
 	
 		  Scanner object = new Scanner(System.in);
