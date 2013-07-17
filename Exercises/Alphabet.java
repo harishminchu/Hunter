@@ -41,4 +41,25 @@ public class Alphabet {
 		return alphabets;
 	}
 	
+	public static void main(String[] args) {
+
+		// 12 program output list of string value
+		Alphabet alphabet = new Alphabet();
+
+		Integer userInput = 5;
+
+		for (int outerLopp = 0; outerLopp < userInput; outerLopp++) {
+
+			System.out.print(alphabet.getAlphabetList().get(outerLopp)); // get the value which is present in the index of alphabets 
+			if (outerLopp != 0) {
+
+				for (int j = 1; j <= outerLopp; j++) {
+					System.out.print(alphabet.getAlphabetList().get(outerLopp + j));
+				}
+
+			}
+
+			System.out.println();
+		}
+	}
 }
