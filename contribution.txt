@@ -1,0 +1,10 @@
+The Question for contributions
+
+1.Write program to draw Square.with hegiht and wdith and also i need another square inside it to (height -1 )and (widht -1).
+2.write program to display square or other thing using javafx.input will be dynamic // dont go deep into JavaFx 
+3.wirte a program to output below requriment input should be dynamic.
+	output :   1      1
+			  111	 111
+	         11111  11111
+		
+	            
