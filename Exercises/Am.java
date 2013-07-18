@@ -8,9 +8,9 @@ public class Am {
 	public static void main(String[] args) {
 
 		int num, rem, qub, sum = 0, i;
-		System.out.println("Armstrong numbers between 0 to 999 are: ");
+		System.out.println("Armstrong numbers between 1 to 999 are: ");
 
-		for (i = 0; i <= 10; i++) {
+		for (i = 1; i <= 999; i++) {
 			num = i;
 			sum = 0;
 			while (num > 0) {
