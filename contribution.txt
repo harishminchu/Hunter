@@ -4,7 +4,7 @@ The Question for contributions
 2.write program to display square or other thing using javafx.input will be dynamic // dont go deep into JavaFx 
 3.wirte a program to output below requriment input should be dynamic.
 	output :   1      1
-			  111	 111
+		  111	 111
 	         11111  11111
 		
 	            
