@@ -1,2 +1,2 @@
 There are Many Diffrent kind of exeception but i have given only five  example . 
-Too know any exception we need to refer api .for details  
+Too know any exception we need to refer api .for details   
