@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class ExampleOfArrayindeoutOfBound {
+public class ExampleOfArrayindexoutOfBound {
 
 	public static void main(String[] args) {
 
