@@ -11,7 +11,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class ExampleTokenizer {
-// this Code does not meet all requriment .
+
 
 
 	public static void main(String[] args) throws Exception {
